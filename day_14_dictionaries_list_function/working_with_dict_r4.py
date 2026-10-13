@@ -1,4 +1,5 @@
-'''Return exactly these keys:
+'''
+  Return exactly these keys:
   "low_stock" → product names where current stock is less than 5.
   "high_revenue" → product names whose revenue (price × total units sold) is at least revenue_limit.
   "best_seller" → product with the highest total units sold.
