@@ -26,16 +26,19 @@ def get_student_detail(students):
     for key,value in students.items():
         email_domain = '@' + value['email'].split('@')[1]
         if email_domain == '@gmail.com':
-            gmail_users.append(key)
+            gmail_users.append(value['name'])
 
         num_count  = 0
         for char in value['email']:
             if char.isnumeric():
                 num_count += 1
+
+        digit_count[key] = num_count
+        
     return {
 
         "gmail_users" : gmail_users,
-        "digit_counts" : {key : num_count}
+        "digit_counts" : digit_count
     }
 
 print(get_student_detail(students))
