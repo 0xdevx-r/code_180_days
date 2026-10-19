@@ -4,8 +4,8 @@ A 180-day coding journey focused on consistency, problem-solving, and improving 
 
 ## 📈 Challenge Progress
 
-- ⬜ **Level 1:** Days 0–30
-- ⬜ **Level 2:** Days 31–60
+- ⬜ **Level 1:** Days 0–30 - Complete!
+- ⬜ **Level 2:** Days 31–60 - Ongoing..
 - ⬜ **Level 3:** Days 61–90
 - ⬜ **Level 4:** Days 91–120
 - ⬜ **Level 5:** Days 121–150
