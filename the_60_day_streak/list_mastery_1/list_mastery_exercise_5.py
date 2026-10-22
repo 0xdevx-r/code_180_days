@@ -1,4 +1,5 @@
-''' RETURN:
+''' 
+RETURN:
 
 "averages" → dictionary mapping each student's name → their average mark.
 "passed_students" → students whose average is at least 60, preserving original order.
