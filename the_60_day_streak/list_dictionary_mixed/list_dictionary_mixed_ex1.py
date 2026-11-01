@@ -1,5 +1,4 @@
-'''
-Return:
+'''Return:
 electronics
 Product names belonging to "Electronics"
 Preserve original order.
