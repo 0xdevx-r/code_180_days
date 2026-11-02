@@ -1,5 +1,4 @@
-'''
-Return:
+'''Return:
 
 department_employees → Department → list of employee names, original order
 skill_counts → Skill → number of employees having that skill
