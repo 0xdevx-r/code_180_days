@@ -1,5 +1,4 @@
-'''
-Return
+'''Return
 unique_products → set of unique product names
 category_products → Category → list of product names, preserving first-seen order without duplicates
 category_counts → Category → number of products in that category, counting each unique product once

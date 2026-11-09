@@ -1,4 +1,5 @@
-'''Return
+'''
+Return
 - student_names → tuple of all student names, original order
 - subjects → tuple of all subjects, original order
 - subject_students → set of unique subjects
