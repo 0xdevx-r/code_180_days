@@ -26,16 +26,30 @@ def get_product_details(products):
     category_counts = {}
     expensive_products = set()
     price_by_product = {}
-    product_list = []
+    
     for product, category, price in products:
         if product not in unique_products:
             unique_products.add(product)
 
-        if category not in category_products:
-            category_products[category] = []
-        category_products[category].append(product)
+            if category not in category_products:
+                category_products[category] = []
+            category_products[category].append(product)
+
+            if category not in category_counts:
+                category_counts[category] = 1
+            else:
+                category_counts[category] += 1
+
+        if price >= 10000:
+            expensive_products.add(product)
+
+        price_by_product[product] = price
+        
 
     return {'unique_products': unique_products,
-            'category_products': category_products
+            'category_products': category_products,
+            'category_counts': category_counts,
+            'expensive_products': expensive_products,
+            'price_by_product': price_by_product
             }
 print(get_product_details(products))
