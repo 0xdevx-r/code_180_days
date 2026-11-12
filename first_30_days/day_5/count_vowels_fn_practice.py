@@ -1,4 +1,4 @@
-# Count Vowels Function
+#Count Vowels Function
 
 def count_vowels(text):
     vowels = "aeiouAEIOU"
