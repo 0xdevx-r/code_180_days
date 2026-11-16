@@ -1,5 +1,4 @@
-'''
-Requirements
+'''Requirements
 
 customers_with_mouse
 Customers whose order contains "Mouse".
