@@ -19,7 +19,7 @@ def get_product_data(orders):
     unique_products = set()
     customer_products = {}
     product_customers = {}
-    custoemers_with_mouse = set()
+    customers_with_mouse = set()
     order_product_counts = {}
 
     for order_id, name, products in orders:
@@ -38,12 +38,12 @@ def get_product_data(orders):
         order_product_counts[order_id] = product_count
 
         if 'Mouse' in products:
-            custoemers_with_mouse.add(name)
+            customers_with_mouse.add(name)
 
     return{'unique_products': unique_products,
            'customer_products': customer_products,
            'product_customers': product_customers,
-           'custoemers_with_mouse': custoemers_with_mouse,
+           'custoemers_with_mouse': customers_with_mouse,
            'order_product_counts': order_product_counts
         } 
 
