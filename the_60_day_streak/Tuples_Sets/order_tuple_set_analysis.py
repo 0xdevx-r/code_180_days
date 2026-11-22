@@ -43,7 +43,7 @@ def get_product_data(orders):
     return{'unique_products': unique_products,
            'customer_products': customer_products,
            'product_customers': product_customers,
-           'custoemers_with_mouse': customers_with_mouse,
+           'customers_with_mouse': customers_with_mouse,
            'order_product_counts': order_product_counts
         } 
 
